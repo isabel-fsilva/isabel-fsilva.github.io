@@ -1,0 +1,149 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    margin: 0;
+}
+
+body {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+    display: inline;
+    text-align: left;
+}
+
+.nav {
+    text-align: right;
+    margin: 10px;
+    display: inline;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Section Our Mission*/
+
+.hero {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*k16kqt*_ga*MTY4MjE2ODgwOC4xNjUyMjY3NDEx*_ga_3LRZM6TM9L*MTY2NDI2OTA2Ni42NC4xLjE2NjQyNjkwNjkuNTcuMC4w");
+    width: 1200px;
+    height: 700px;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.our-mission {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Section Tea of the month*/
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.month-tea img {
+    
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.fall-berry {
+    margin-bottom: 20px;
+}
+
+.spiced-rum {
+    margin-bottom: 20px;
+}
+
+.seasonal-donuts {
+    margin-bottom: 20px;
+}
+
+.myrtle-ave {
+    margin-bottom: 20px;
+}
+
+.bedford-bizarre {
+    margin-bottom: 20px;
+}
+
+/*Section Locations*/
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*s1vkcg*_ga*MTY4MjE2ODgwOC4xNjUyMjY3NDEx*_ga_3LRZM6TM9L*MTY2NDI4MjY3MS42Ni4wLjE2NjQyODI2NzEuNjAuMC4w");
+    background-position: center;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.location-title {
+    background: none;
+    padding-top: 60px;
+}
+
+.adress {
+    background: none;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.adress div {
+    width: 300px;
+}
+
+/*Section Footer*/
+
+.contacts {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-size: smaller;
+}
